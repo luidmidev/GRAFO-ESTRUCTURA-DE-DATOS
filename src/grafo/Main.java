@@ -15,7 +15,7 @@ public class Main {
         grafo.crearArco("D", "E");
         grafo.eliminarNodo("A");
         grafo.eliminarArco("D", "E");
-        grafo.eliminarArco("Z", "E"); //ELIMNANDO NODO IMPOSIBLE
+        grafo.eliminarArco("Z", "E"); 
         grafo.generarMatrizAdyacencia();
         System.out.println(grafo);
     }
